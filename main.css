@@ -1,0 +1,99 @@
+.header {
+    font-size: 150px;
+    background-color: rgba(212, 62, 24, 0.8);
+    text-align: center;
+}
+
+.pizza-thief {
+    background-image: url("PizzaThief.jpg");
+    background-position: center;
+  
+    filter: blur(5px);
+    height: 75%; 
+    width: 75%;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+.pizza-thief-text {
+    background-color: rgba(0,0,0, 0.5); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 800;
+    width: 75%;
+    padding: 20px;
+    margin-inline-start: 8%;
+    text-align: center;
+}
+
+.stolen-pizza {
+    background-image: url("GoodPizza.jpg");
+    height: 80%; 
+    width: 80%;
+    margin-left: 7.5%;
+    margin-right: 5%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25%;
+}
+
+.stolen-pizza-text {
+    background-color: rgba(0,0,0, 0.5); 
+    color: white;
+    font-weight: bold;
+    border: 2px solid #f1f1f1;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.pizza-hostage {
+    background-image: url("PizzaHostage.jpg");
+    height: 105%; 
+    width: 80%;
+    margin-left: 7.5%;
+    margin-right: 5%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.pizza-hostage-text {
+    background-color: rgba(212, 62, 24, 0.8);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+}
+
+body {
+    background-image: url("PizzaSlice.png");
+    background-repeat: space;
+}
+
+#theft-report {
+    background-color: tomato;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.pizza-link {
+    border-radius: 50%;
+    bottom: 0;
+    margin-left: 30%;
+}
+.pizza-link:hover {
+    transition: all .5s;
+    transform: scale(1) rotate(360deg);
+  }
